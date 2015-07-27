@@ -1,6 +1,5 @@
-import os
-
+import wmi
 def run(**args):
     print "[*] In test module."
     
-    return str(os.path)
+    return str(wmi.WMI().Win32_LogicalDisk())
